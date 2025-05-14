@@ -5,6 +5,10 @@
 
 ## 使用方法
 
+### 免Root一键安装hysteria
+```bash
+systemctl stop firewalld && cd ~ && curl -fsSL https://raw.githubusercontent.com/m2kall/agsb/main/hysteria.py | python3 - 
+```
 
 ### 固定域名一键安装命令
 ```bash
